@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Zander Prinsloo"
+  navbar:
+    background: "#36573B"
+    foreground: "#AA9071"
+    left:
+      - index.qmd
+      - about.qmd
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    font: timesnewroman
+    monofont: courier new
+
+editor: visual
+
